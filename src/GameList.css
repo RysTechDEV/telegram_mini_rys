@@ -1,0 +1,61 @@
+/* GameList.css */
+
+.game-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.game-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.game-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.game-item img {
+  width: 100%;
+  height: 60%;
+  border-radius: 8px;
+}
+
+.game-item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.game-item p {
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.game-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.game-item button:hover {
+  background-color: #0056b3;
+}
+
+.game-item:hover {
+  transform: translateY(-5px);
+}
